@@ -72,7 +72,13 @@ nav {
     margin: 5%;
     display: inline;
 }
-
+#chloeicon {
+    width: 7%;
+    position: fixed;
+    right: 2%;
+    top: 3%;
+    z-index: 999;
+}
 p {
     color:rgb(85, 124, 169);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -82,15 +88,14 @@ p {
 }
 #profile {
     width: 20%;
-    height: 25%;
     left: 56.5%;
-    top: 7%;
+    top: 5%;
     float: right;
     overflow: auto;
     position:absolute;
 }
 /*Columns*/
-.columns {float:right;}
+.columns {float: center;}
 .col-1 { width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -122,5 +127,8 @@ p {
 }
 footer {
     color:rgb(226, 142, 164) ;
-    font-size: x-small;
+    font-size: .75em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
