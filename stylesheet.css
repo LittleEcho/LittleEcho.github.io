@@ -87,12 +87,10 @@ p {
     height: 15%;
 }
 #profile {
-    width: 20%;
-    left: 56.5%;
-    top: 5%;
-    float: right;
-    overflow: auto;
-    position:absolute;
+ width: 25%;
+ position: absolute;
+ right: 18%;
+ top: 2%;
 }
 /*Columns*/
 .columns {float: center;}
@@ -114,21 +112,77 @@ p {
     width: 100%;
     height: auto;
     padding-bottom: 7%;
+    padding-top: 7%;
 }
 #image2 {
     width: 100%;
     height: auto;
     padding-bottom: 7%;
+    padding-top: 7%;
 }
 #image3 {
     width: 100%;
     height: auto;
     padding-bottom: 7%;
+    padding-top: 7%;
 }
 footer {
     color:rgb(226, 142, 164) ;
     font-size: .75em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 4%;
-    padding-bottom: 4%;
+    padding-bottom: 45;
+}
+@media screen and (max-width:750px) {
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: .8em;
+    }
+    #bio {
+        font-size: .8em;
+    }
+    nav {
+        font-size: .8em;
+    }
+    #image1title {
+        font-size: 1em;
+    }
+    #image1sub {
+        font-size: .8em;
+    }
+    #image1bio {
+        font-size: .8em;
+    }
+    #image2title {
+        font-size: 1em;
+    }
+    #image2sub {
+        font-size: .8em;
+    }
+    #image2bio {
+        font-size: .8em;
+    }
+    #image3title {
+        font-size: 1em;
+    }
+    #image3sub {
+        font-size: .8em;
+    }
+    #image3bio {
+        font-size: .8em;
+    }
+    #profile {
+        top: 10%;
+    }
+.columns {
+    width: 80;
+    margin: auto;
+    float: right;
+
+}
 }
