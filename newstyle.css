@@ -1,0 +1,63 @@
+* {
+
+}
+
+body {
+    background-color:rgb(246, 238, 243);
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5em;
+    font-weight:600;
+    color: rgb(226, 142, 164);
+}
+
+h2 {
+    color: rgb(226, 142, 164);
+    font-family: "Poppins", sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+h3 {
+    color: cornflowerblue;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+nav {
+    ul {
+        list-style-type: none;
+        font-family:"Poppins", sans-serif;
+        font-weight: 600;
+        font-size: 0.8em;
+        text-align:left;
+    }
+     a:link {color: cornflowerblue;}
+     a:visited {color:rgb(226, 142, 164);}
+     a:hover {color: goldenrod;}
+     a :active {color: cornflowerblue;}
+}
+h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(226, 142, 164);
+}
+h5{
+    color: cornflowerblue;
+}
+p {
+    color: cornflowerblue; 
+}
+
+#chloeicon {
+    width: 7%;
+    position: fixed;
+    right: 2%;
+    top: 3%;
+    z-index: 999;
+}
+
+hr {
+color: rgb(226, 142, 164);
+}
