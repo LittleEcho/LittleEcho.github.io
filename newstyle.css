@@ -56,8 +56,17 @@ p {
     right: 2%;
     top: 3%;
     z-index: 999;
+    animation-name: icon;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes icon {
+    from {top: 5%;}
+    to {top: 3%;}
 }
 
-hr {
-color: rgb(226, 142, 164);
+#profile:hover{
+    transition: all 1.25s ease-in-out;
+    border-radius: 70%;
 }
