@@ -1,0 +1,165 @@
+* {
+
+/* Body */
+
+}
+#wrapper{
+    margin: 110px;
+}
+body {
+    background-color: black;
+    margin: auto;
+}
+
+/* Text */
+
+h1{ 
+    color:#14DD14;
+    font-size: 40pt;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+h2{
+
+    color: white;
+    font-size: 30px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal
+}
+h3 {
+
+    color: #14dd14;
+    font-size: 38px;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal
+    
+}
+h4{
+
+    color: white;
+    font-size: 26px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+p{
+    color: white;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12pt;
+}
+#info {
+    color: #14DD14;
+    padding-bottom: 82%;
+}
+
+#calltoaction {
+
+    font-size: 14pt;
+    padding-top: 18%;
+}
+
+.char-text-left {
+    padding-left: 10%;
+}
+.char-text-right {
+    padding-right: 10%;
+}
+.center-text {
+    text-align: center;
+    font-size: 18pt;
+}
+
+/* Images */
+
+#desk {
+  
+    height: auto;
+    width: 800px;
+    left: 44%;
+    position: absolute;
+    top: .5%;
+}
+#jon-pic {
+    padding-bottom: 40%;
+}
+#martin-pic {
+    padding-bottom: 40%;
+}
+#sasha-pic {
+    padding-bottom: 40%;
+}
+#recorder1 {
+
+    height: auto;
+    width: 360px;
+    position: absolute;
+    left: 84%;
+    top: 10.5%;
+
+}
+
+#ep1tape {
+
+    scale: 50%;
+
+}
+
+#eyes1 {
+
+    width: 551px;
+    position: absolute;
+    top: 18%;
+    left: -16%;
+
+}
+
+#eyes2 {
+
+    width: 534px;
+    position: absolute;
+    top: 23%;
+    left: 70%;
+
+}
+
+#eyes3 {
+
+    width: 616px;
+    position: absolute;
+    top: 30%;
+    left: -18%;
+}
+
+#eyes4 {
+
+    position: absolute;
+    top: 42%;
+    left: 84%; 
+    width: 312px;
+
+}
+
+#eyes5 {
+    position: absolute;
+    top: 45%;
+    width: 432px;
+
+
+}
+
+#tape-recorder-3 {
+
+    position: absolute;
+    width: 304.08px;
+    left: 31%;
+    top: 60.5%;
+}
+
+.padtop {
+    padding-top: 30%;
+}
