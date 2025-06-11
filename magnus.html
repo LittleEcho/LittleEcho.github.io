@@ -23,6 +23,7 @@
 
  <!--Opening Paragraph-->
 
+
     <body class="container">
 
         <article class="row">
@@ -87,10 +88,22 @@
 
 <!--Tape Recorder-->
 
-    <a href="magnus/Audio/the-crew.mp3" onclick="playAudio">
+    <!-- <a href="magnus/Audio/the-crew.mp3" onclick="playAudio">
     <img src="magnus/tape-recorder-1.png" id="recorder1">
     </a>
-    <audio> <source src="magnus/Audio/the-crew.mp3"> </audio>
+    <audio> <source src="magnus/Audio/the-crew.mp3"> </audio> -->
+
+    <script>
+      function play() {
+        var audio = document.getElementById("audio1");
+        audio.play();
+      }
+    </script>
+
+    <img id=recorder1 src="magnus/tape-recorder-1.png" onclick="play()">
+    <audio id="audio1" src="magnus/Audio/the-crew.mp3"></audio>
+    
+<br><br>
 
 <br><br>
 
@@ -174,7 +187,7 @@
 
     <article class="row">
 
-        <div class="six columns">
+        <div  id=statements-bio class="six columns">
 
             <h3 class="padtop"> THE STATEMENTS </h3>
 
@@ -189,19 +202,20 @@
 
         <div class="five columns">
 
- <!--Tape Recorder-->
+            <script>
+            function play() {
+                var audio = document.getElementById("audio2");
+                audio.play();
+            }
+            </script>
 
-            <a href="magnus/Audio/the-statements.mp3" onclick="playAudio">
-
-            <img class="u-full-width" src="magnus/tape-recorder-2.png" />
-
-            </a>
-
-            <audio> <source src="magnus/Audio/the-statements.mp3" id="statement-audio"/></audio>
+            <img class=u-full-width id=recorder2 src="magnus/tape-recorder-2.png" onclick="play()">
+            <audio id="audio2" src="magnus/Audio/the-statements.mp3"></audio>
+           
 
         </div>
         <div class="seven columns">
-        <img class="u-full-width" src="magnus/statements.png"/>
+        <img id=statements-pic class="u-full-width" src="magnus/statements.png"/>
 
         </article>
 
@@ -217,13 +231,17 @@
 
     <h3 class="center-text"> LOOK INTO THE DEPTHS OF THE ARCHIVES WITH JON AND HIS TEAM </h3>
 
-    <a href="magnus/Audio/the-fears.mp3"onclick="playAudio">
 
-    <img class="u-full-width" src="magnus/tape-recorder-3.png" id="tape-recorder-3">
+            <script>
+            function play() {
+                var audio = document.getElementById("audio3");
+                audio.play();
+            }
+            </script>
 
-    </a>
+            <img class=u-full-width id=recorder3 src="magnus/tape-recorder-3.png" onclick="play()">
+            <audio id="audio3" src="magnus/Audio/the-fears.mp3"></audio>
 
-    <audio> <source src="magnus/Audio/the-fears.mp3" id="the-fears-audio"/> </audio>
 
     <img class="u-full-width" src="magnus/the-fears.png" id="fears">
 
@@ -251,6 +269,8 @@
     </a>
 
 </article>
+
+<div class="spacer"></div>
 
     </body>
     

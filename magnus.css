@@ -9,6 +9,7 @@
 body {
     background-color: black;
     margin: auto;
+    width: 80%;
 }
 
 /* Text */
@@ -56,11 +57,28 @@ p{
     color: #14DD14;
     padding-bottom: 82%;
 }
+#statements-bio {
+    padding-bottom: 5%;
+}
 
 #calltoaction {
 
     font-size: 14pt;
     padding-top: 18%;
+}
+
+#ep1tape {
+    position: absolute;
+    top :98%;
+    animation-name: ep1tape;
+    animation-duration: 3s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ep1tape {
+    from {top: 91%;}
+    to {top: 92%;}
 }
 
 .char-text-left {
@@ -103,6 +121,15 @@ p{
 
 }
 
+#statements-pic {
+    position: relative;
+    top: -300px;
+}
+
+#recorder2 {
+    width: 90%;
+}
+
 #ep1tape {
 
     scale: 50%;
@@ -138,7 +165,7 @@ p{
 #eyes4 {
 
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 84%; 
     width: 312px;
 
@@ -152,7 +179,7 @@ p{
 
 }
 
-#tape-recorder-3 {
+#recorder3 {
 
     position: absolute;
     width: 304.08px;
@@ -162,4 +189,10 @@ p{
 
 .padtop {
     padding-top: 30%;
+}
+
+.spacer {
+  position: static; 
+  height: 700px; 
+  width: 100%;
 }
